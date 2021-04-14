@@ -1,0 +1,24 @@
+int ledPin = 10;
+
+void setup()
+{
+  pinMode(ledPin, OUTPUT);
+}
+
+void dot() {
+  
+}
+
+void dash(){
+  
+}
+
+void loop()
+{
+  dot(); dot(); dot();
+  delay(400);
+  dash(); dash(); dash();
+  delay(400);
+  dot(); dot(); dot();
+  delay(400);
+}
